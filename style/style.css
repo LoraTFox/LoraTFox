@@ -1,0 +1,82 @@
+
+
+body{
+	font-size: 20px;
+	font-family: Georgia, sans-serif;
+	color: #fff;
+  font-weight: 300;
+  text-align: center;
+  background: url(bday.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+h1{
+  font-weight: 300;
+  margin: 0px;
+  padding: 15px;
+  font-size: 22px;
+  background-color: black;
+  color: #fff;
+}
+.question{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.answers {
+  margin-bottom: 20px;
+  text-align: left;
+  display: inline-block;
+  
+}
+.answers label{
+  display: block;
+  margin-bottom: 10px;
+}
+button{
+    font-family: serif;
+	font-size: 22px;
+	background-color: rgba(70, 82, 106, 0.9);
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+button:hover{
+	background-color: #69839e;
+}
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+.quiz-container{
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    text-decoration: none;
+    color: #fff;
+    font-size: 100px;
+}
+a:visited {
+    text-decoration: none;
+    color: #fff;
+}
